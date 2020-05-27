@@ -26,7 +26,6 @@ namespace SexyUI
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            //services.AddSingleton<WeatherForecastService>();
             services.AddTransient<StudentService>();
 
             services.AddBlazoredToast();

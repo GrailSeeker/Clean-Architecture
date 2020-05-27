@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F8BtscPVJ/JLvD2cTRoajNyEeAh8BWRNQsBwew8kYen84mRkZKyH1F+mmvd0W1CcBPkJFs/Isja93Q5g2WOw4A==",
+  "dgSpecHash": "OP89ejPhIwOsgNtze9gpl9rApe7nULB8DPPrSI3Hum4nw5bedm0/+nSVswm5PgLf+07pkYv9EzeL2p41p21UTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

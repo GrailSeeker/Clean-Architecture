@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <AssemblyName>SexyUI</AssemblyName>
+    <RootNamespace>SexyUI</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

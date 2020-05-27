@@ -10184,11 +10184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
+      "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
       "projectName": "SexyUI",
-      "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
+      "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
       "packagesPath": "C:\\Users\\prdora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\obj\\",
+      "outputPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10207,11 +10207,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj"
+            "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj"
             }
           }
         }

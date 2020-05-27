@@ -11,13 +11,13 @@ namespace Persistence
     {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
-            //// SQL
-            //services.AddDbContext<StudentManagementDemoDbContext>(
-            //    options => options.UseSqlServer(configuration.GetConnectionString("StudentManagementDatabase_SQL")));
-
-            // FileDb
+            // SQL
             services.AddDbContext<StudentManagementDemoDbContext>(
-                options => options.UseFileContextDatabase(configuration.GetConnectionString("StudentManagementDatabase_FileDb")));
+                options => options.UseSqlServer(configuration.GetConnectionString("StudentManagementDatabase_SQL")));
+
+            //// FileDb
+            //services.AddDbContext<StudentManagementDemoDbContext>(
+            //    options => options.UseFileContextDatabase(configuration.GetConnectionString("StudentManagementDatabase_FileDb")));
 
             services.AddScoped<IStudentManagementDemoDbContext>(
                 provider => provider.GetService<StudentManagementDemoDbContext>());

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBETM456ctA8qPCM40JZteCam+5NuQ9dbPJUHhxjH/QJTAYHOybJFzhYMK8PlzQILtPmdpOVWABt6YzHIBDE5Q==",
+  "dgSpecHash": "bVvBqrevV42Oq70IgjlmqBiTLrhM6hjcbAUPpaJsfTG1J7cdCKwIBKQcvQG/vBaWU6ozsVdRx+z0FT/+ko/DrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prdora\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\prdora\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

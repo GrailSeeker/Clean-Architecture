@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj": {}
+    "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj": {
+    "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj",
         "projectName": "StudentManagementDemo.Core.Application",
-        "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\prdora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Application\\obj\\",
+        "outputPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj"
+              "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj": {
+    "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
         "projectName": "StudenManagementDemo.Core.Domain",
-        "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\prdora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Core\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -7274,11 +7274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\Persistence.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\Persistence.IntegrationTests.csproj",
       "projectName": "Persistence.IntegrationTests",
-      "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\Persistence.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\Persistence.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\prdora\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Tests\\Persistence.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7297,8 +7297,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj"
+            "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Infrastructure\\Persistence\\Persistence.csproj"
             }
           }
         }

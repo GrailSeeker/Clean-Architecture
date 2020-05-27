@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zulbN87zpxcXmpuRJygkgB6DkixyoXuX6TvMF7E+rXmHnk5PIjvFfuj7xuull5YMo3ipXNFpaaiGNrb8uG7wog==",
+  "dgSpecHash": "7qXetyL2JwBdAIXn137eovFEnHmYRtUexYPjDLoisBSGMh/7OGrew5ZHnA3rwB4+nFJM2UXwZk3PbV7HCSIymg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
+  "projectFilePath": "C:\\Users\\prdora\\source\\repos\\Clean-Architecture\\StudenManagementDemo\\Src\\Presentation\\SexyUI\\SexyUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prdora\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\prdora\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
