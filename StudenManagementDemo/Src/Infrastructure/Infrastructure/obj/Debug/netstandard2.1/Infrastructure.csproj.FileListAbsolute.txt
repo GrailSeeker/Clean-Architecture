@@ -1,0 +1,14 @@
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudentManagementDemo.Core.Application.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudentManagementDemo.Core.Application.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudentManagementDemo.Infrastructure.deps.json
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudentManagementDemo.Infrastructure.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\bin\Debug\netstandard2.1\StudentManagementDemo.Infrastructure.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\StudentManagementDemo.Infrastructure.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Infrastructure\Infrastructure\obj\Debug\netstandard2.1\StudentManagementDemo.Infrastructure.pdb

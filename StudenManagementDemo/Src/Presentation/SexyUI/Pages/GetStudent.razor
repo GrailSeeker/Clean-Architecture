@@ -1,0 +1,123 @@
+﻿@page "/getstudent"
+
+@using SexyUI.Data
+@using StudentManagementDemo.Core.Application.Students.Queries.GetStudentDetail
+
+@inject StudentService StudentService
+@inject IToastService toastService
+
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 text-info">Get</h1>
+    <p class="lead">Search by id or get everyone!</p>
+</div>
+
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="width:400px;margin-top:-30px">
+    <div class="input-group mb-lg-4">
+        <div class="input-group-prepend  border-info">
+            <span class="input-group-text  border-info" id="basic-addon1">
+                <i class="fa fa-search text-info" aria-hidden="true"></i>
+            </span>
+        </div>
+        <input @bind="studentId" type="text" class="form-control border-info shadow" placeholder="Id" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+    <button class="btn btn-info btn-sm shadow" @onclick="GetStudentDetailsByIdAsync">Get</button>
+    <button class="btn btn-info btn-sm shadow" @onclick="GetAllStudentDetailsAsync">Get All</button>
+</div>
+
+@if (!error)
+{
+    @* Student Component *@
+    <br />
+    <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
+}
+
+@code {
+
+    private string studentId;
+
+    private bool loading = false;
+    private bool error = false;
+
+    private int oneOrMany;
+
+    private ICollection<StudentDetailViewModel> studentDetailViewModelCollection;
+
+    private async Task GetStudentDetailsByIdAsync()
+    {
+        if (!string.IsNullOrEmpty(studentId))
+        {
+            loading = true;
+            error = false;
+            oneOrMany = 1;
+
+            try
+            {
+                var studentIdAsGuid = Guid.Parse(studentId);
+
+                // Get student details.
+                var studentDetails = await StudentService.GetStudentDetailsByIdAsync(studentIdAsGuid);
+
+                if (studentDetails == null)
+                {
+                    error = true;
+                    throw new Exception($"Could not find student {studentId}.");
+                }
+
+                error = false;
+
+                // Initialize the collection.
+                studentDetailViewModelCollection = new List<StudentDetailViewModel>();
+
+                // Add to collection.
+                studentDetailViewModelCollection.Add(studentDetails);
+
+                toastService.ShowSuccess($"That worked like a charm!");
+            }
+            catch (Exception ex)
+            {
+                error = true;
+                toastService.ShowError(ex.Message);
+            }
+
+            loading = false;
+        }
+    }
+
+    private async Task GetAllStudentDetailsAsync()
+    {
+        loading = true;
+        oneOrMany = 666;
+
+        studentId = string.Empty;
+
+        try
+        {
+            // Get student details.
+            var allStudentDetails = await StudentService.GetAllStudentDetailsAsync();
+
+            if (allStudentDetails == null || allStudentDetails.Count == 0)
+            {
+                error = true;
+                throw new Exception($"No students found.");
+            }
+
+            error = false;
+
+            // Initialize the collection.
+            studentDetailViewModelCollection = new List<StudentDetailViewModel>();
+
+            // Add to collection.
+            studentDetailViewModelCollection = allStudentDetails;
+
+            toastService.ShowSuccess($"That worked like a charm!");
+        }
+        catch (Exception ex)
+        {
+            error = true;
+            toastService.ShowError(ex.Message);
+        }
+
+        loading = false;
+    }
+}

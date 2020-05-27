@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+@using Blazored.Toast
+@using Blazored.Toast.Configuration
+
+@* Header menu *@
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-info border-bottom shadow-lg">
+
+    <p class="p-2 my-0 mr-md-auto font-weight-normal text-light">
+        I&nbsp;<img src="https://tamilsms.blog/content/images/2019/08/tamil-sms-blog-logo-v4.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Sexy UI
+    </p>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-white" href="index"><i class="fa fa-home  text-white" aria-hidden="true"></i>&nbsp;Home</a>
+        <a class="p-2 text-white" href="getstudent"><i class="fa fa-graduation-cap  text-white" aria-hidden="true"></i>&nbsp;Get</a>
+        <a class="p-2 text-white" href="addstudent"><i class="fa fa-plus  text-white" aria-hidden="true"></i>&nbsp;Add</a>
+    </nav>
+</div>
+
+@* Body *@
+<div class="container">
+    <BlazoredToasts Position="@ToastPosition.BottomRight"
+                    Timeout="5"
+                    IconType="IconType.FontAwesome"
+                    SuccessClass="success-toast-override"
+                    SuccessIcon="fa fa-thumbs-up"
+                    ErrorIcon="fa fa-bug"
+                    RemoveToastsOnNavigation="true" />
+    @Body
+</div>
+

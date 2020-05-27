@@ -1,0 +1,9 @@
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.deps.json
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache

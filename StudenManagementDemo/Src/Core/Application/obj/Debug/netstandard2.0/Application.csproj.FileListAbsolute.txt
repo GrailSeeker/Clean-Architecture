@@ -1,0 +1,8 @@
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.0\Application.deps.json
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.0\Application.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.0\Application.AssemblyInfo.cs
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.0\StudenManagementDemo.Domain.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.0\StudenManagementDemo.Domain.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete

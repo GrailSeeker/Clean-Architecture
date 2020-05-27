@@ -1,0 +1,91 @@
+﻿@page "/addstudent"
+
+@using SexyUI.Data
+@using StudentManagementDemo.Core.Application.Students.Queries.GetStudentDetail
+
+@inject StudentService StudentService
+@inject IToastService toastService
+
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 text-info">Add</h1>
+    <p class="lead">Got a fresher?</p>
+</div>
+
+<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="width:400px;margin-top:-30px">
+    <div class="input-group mb-lg-4">
+        <div class="input-group-prepend border-info">
+            <span class="input-group-text border-info text-info" id="basic-addon1">Name</span>
+        </div>
+        <input @bind="studentName" type="text" class="form-control border-info shadow" placeholder="Angel Doe" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-lg-4">
+        <div class="input-group-prepend border-info">
+            <span class="input-group-text border-info text-info" id="basic-addon1">Email</span>
+        </div>
+        <input @bind="studentEmail" type="text" class="form-control border-info shadow" placeholder="angeldoe@sweetling.com" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <button class="btn btn-info btn-sm shadow" @onclick="AddStudentAsync">Add</button>
+</div>
+
+@if (!error)
+{
+    @* Student Component *@
+    <br />
+    <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
+}
+
+@code {
+    private string studentName;
+    private string studentEmail;
+
+    private int oneOrMany;
+
+    private bool loading = false;
+    private bool error = false;
+
+    private ICollection<StudentDetailViewModel> studentDetailViewModelCollection;
+
+    private async Task AddStudentAsync()
+    {
+        if (!string.IsNullOrEmpty(studentName) && !string.IsNullOrEmpty(studentEmail))
+        {
+            loading = true;
+            error = false;
+            oneOrMany = 1;
+
+            try
+            {
+                var studentId = await StudentService.AddNewStudentAsync(studentName, studentEmail);
+
+                if (studentId == null)
+                {
+                    error = true;
+                    throw new Exception($"Could not add {studentName}.");
+                }
+
+                error = false;
+
+                // Get student details.
+                var studentDetails = await StudentService.GetStudentDetailsByIdAsync(studentId);
+
+                // Initialize the collection.
+                studentDetailViewModelCollection = new List<StudentDetailViewModel>();
+
+                // Add to collection.
+                studentDetailViewModelCollection.Add(studentDetails);
+
+                toastService.ShowSuccess($"{studentName} added.");
+
+                studentName = string.Empty;
+                studentEmail = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                error = true;
+                toastService.ShowError(ex.Message);
+            }
+
+            loading = false;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.1\StudentManagementDemo.Core.Application.deps.json
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.1\StudentManagementDemo.Core.Application.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.1\StudentManagementDemo.Core.Application.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\bin\Debug\netstandard2.1\StudenManagementDemo.Core.Domain.pdb
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\StudentManagementDemo.Core.Application.dll
+C:\Users\prdora\source\repos\StudenManagementDemo\Src\Core\Application\obj\Debug\netstandard2.1\StudentManagementDemo.Core.Application.pdb
