@@ -10,6 +10,10 @@ namespace StudentManagementDemo.ClassicUI
 {
     public class ConsoleClient
     {
+        const string studentName = "Date Masamune";
+        const string studentEmail = "dmasamune@samurai.com";
+        const string emailToUpdate = "dmasamune@samurais.com";
+
         readonly StudentService _studentService;
 
         public ConsoleClient(StudentService studentService)
@@ -22,28 +26,27 @@ namespace StudentManagementDemo.ClassicUI
             try
             {
                 // Add
-                var studentName = "Toshiro";
-                var studentEmail = "toshiro@samurai.com";
                 Console.WriteLine($"--Adding new Student - Name: {studentName}, Email: {studentEmail}...");
 
                 var studentId = await _studentService.AddNewStudentAsync(studentName, studentEmail);
-                Console.WriteLine($"Student added successfully with Id: {studentId}");
+                Console.WriteLine($"{studentName} added successfully with Id: {studentId}");
 
                 // Get                
-                Console.WriteLine($"--Fetching details of Student with Id: {studentId}...");
+                Console.WriteLine($"\n--Fetching details of Student with Id: {studentId}...");
                 var studentDetails = await _studentService.GetStudentDetailsByIdAsync(studentId);
 
-                Console.WriteLine($"Student details fetched successfully:");
+                Console.WriteLine($"{studentName}'s details fetched successfully:");
                 Console.WriteLine($"Id: {studentDetails.StudentId}");
                 Console.WriteLine($"Name: {studentDetails.StudentName}");
                 Console.WriteLine($"Email: {studentDetails.StudentEmail}");                
 
                 // Update
-                string emailToUpdate = "toshirosan@samurais.com";
-                Console.WriteLine($"--Updating Student email- Name: {studentName}, Old Email: {studentEmail}, New Email: {emailToUpdate}...");
+                Console.WriteLine($"\n--Updating {studentName}'s email- Old Email: {studentEmail}, New Email: {emailToUpdate}...");
 
                 await _studentService.UpdateStudentDetailsAsync(studentId, studentName, emailToUpdate);
-                Console.WriteLine($"Student's email updated successfully.");
+                Console.WriteLine($"{studentName}'s email updated successfully.");
+
+                Console.WriteLine($"\nThat's all folks!!! :-]");
 
             }
             catch (Exception ex)

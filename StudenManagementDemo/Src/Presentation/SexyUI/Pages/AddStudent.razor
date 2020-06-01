@@ -30,8 +30,10 @@
 @if (!error)
 {
     @* Student Component *@
+    <div class="container">
+        <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
+    </div>
     <br />
-    <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
 }
 
 @code {

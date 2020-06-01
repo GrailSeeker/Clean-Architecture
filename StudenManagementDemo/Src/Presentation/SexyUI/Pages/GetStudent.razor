@@ -8,7 +8,7 @@
 
 <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4 text-info">Get</h1>
-    <p class="lead">Search by id or get everyone!</p> 
+    <p class="lead">Search by id or get everyone!</p>
 </div>
 
 <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" style="width:400px;margin-top:-30px">
@@ -28,8 +28,10 @@
 @if (!error)
 {
     @* Student Component *@
+    <div class="container">
+        <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
+    </div>
     <br />
-    <Student OneOrMany="@oneOrMany" ComponentLoading="@loading" StudentDetailCollection="@studentDetailViewModelCollection"></Student>
 }
 
 @code {
